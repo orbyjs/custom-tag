@@ -1,6 +1,6 @@
 # @orby/custom-tag
 
-Allows to encapsulate the render function of "@orby/core" within a web-component, allowing the reulitization of the component by invoking it in the html or within other libraries.
+Allows to encapsulate the render function of [@orby/core](https://github.com/orbyjs/custom-tag) within a web-component, allowing the reulitization of the component by invoking it in the html or within other libraries.
 
 ```jsx
 import {h} from "@orby/core";
