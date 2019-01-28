@@ -1,0 +1,29 @@
+{
+  "name": "@orby/custom-tag",
+  "description": "Allows to use orby within web-components in a simple and functional way",
+  "version": "1.0.0",
+  "main": "dist/orby-custom-tag.js",
+  "module": "dist/orby-custom-tag.mjs",
+  "umd:main": "dist/orby-custom-tag.umd.js",
+  "source": "src/index.js",
+  "author": "Matias Trujillo Olivares",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbyjs/custom-tag.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "upload": "npm publish --access public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@orby/core": "*",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-terser": "^4.0.3"
+  }
+}
