@@ -1,7 +1,7 @@
 {
   "name": "@orby/custom-tag",
   "description": "Allows to use orby within web-components in a simple and functional way",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/orby-custom-tag.js",
   "module": "dist/orby-custom-tag.mjs",
   "umd:main": "dist/orby-custom-tag.umd.js",

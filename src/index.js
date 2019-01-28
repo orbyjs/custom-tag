@@ -59,4 +59,5 @@ export default function register({ tag, props, children }) {
         };
         customElements.define(tag, CustomTags[tag]);
     }
+    document.querySelectorAll(tag).forEach(element => element.update());
 }
